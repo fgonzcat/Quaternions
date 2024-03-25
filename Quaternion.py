@@ -161,3 +161,6 @@ def Rotate(Q,axis,phi):
  n = axis.n()
  u = math.cos(phi/2.0) + n*math.sin(phi/2.0)
  return u*q*u.inv()
+
+ def MySpecialFunction(Q,axis,phi):
+  return 0
